@@ -23,3 +23,13 @@ ollama pull qwen2.5-coder:1.5b
 ```commandline
 ollama create sql-translator -f .\Modelfile
 ```
+
+6. Run SQLTranslator.py
+  - Windows
+```commandline
+py SQLTranslator.py
+```
+  - MacOs/Linux
+```commandline
+python SQLTranslator.py
+```
